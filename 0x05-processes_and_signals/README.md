@@ -40,7 +40,6 @@ Displays I hate the kill command upon receiving a SIGTERM signal.
 Displays Y U no love me?! upon receiving a SIGINT signal.
 Deletes the file /var/run/myscript.pid and terminates itself upon receiving the SIGQUIT or SIGTERM signal.
 
-
 10. Manage my process
 manage_my_process: Bash script that writes I am alive! to the file /tmp/my_process indefinitely.
 Sleeps two seconds in between each write.
@@ -52,6 +51,7 @@ Displays manage_my_process started.
 When passed the argument stop:
 Stops manage_my_process.
 Deletes the file /var/run/my_process.pid.
+
 Displays manage_my_process stopped.
 When passed the argument restart:
 Stops manage_my_process.
